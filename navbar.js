@@ -35,19 +35,19 @@ function projDetails(json) {
 
     for(var i = 0; i < jsonData.projects.length; i++) {
         content += '<div class="project">';
-        content += '<div class="picture"><img src="' + jsonData.images[i] + '"></div>';
+        content += '<div class="picture"><img src="' + jsonData.projects[i][0] + '"></div>';
         content += '<h2 class="picture-title">' + jsonData.projects[i][1] + '</h2>';
         content += '<div class="picture-info">' + jsonData.projects[i][2] + '</div>';
         content += '</div>';
     }
 
-    // for(var i = 0; i < jsonData.projectsVideos.length; i++) {
-    //     content += '<div class="project">';
-    //     content += '<div class="video"><video controls><source src="' + jsonData.projectsVideos[i][0] + '" type="video/mp4"></video></div>';
-    //     content += '<h2 class="video-titles">' + jsonData.projectsVideos[i][1] + '</h2>';
-    //     content += '<div class="video-info">' + jsonData.projectsVideos[i][2] + '</div>';
-    //     content += '</div>';
-    // }
+    for(var i = 0; i < jsonData.projectsVideos.length; i++) {
+        content += '<div class="project">';
+        content += '<div class="video"><video controls><source src="' + jsonData.projectsVideos[i][0] + '" type="video/mp4"></video></div>';
+        content += '<h2 class="video-titles">' + jsonData.projectsVideos[i][1] + '</h2>';
+        content += '<div class="video-info">' + jsonData.projectsVideos[i][2] + '</div>';
+        content += '</div>';
+    }
 
     if(document.body.contains(projects)) {
         project.innerHTML = content;

@@ -4,11 +4,6 @@
         ["Projects", "designproj.html"],
         ["Contact", "contact.html"]
     ],
-    "images": [
-        "SpoofProd.png",
-        "zombified_jensen.jpg",
-        "my-bootstrap.JPG"
-    ],
     "projects": [
         [
             "SpoofProd.png",
