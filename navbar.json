@@ -3,5 +3,44 @@
         ["Home", "bio.html"],
         ["Projects", "designproj.html"],
         ["Contact", "contact.html"]
+    ],
+    "images": [
+        "SpoofProd.png",
+        "zombified_jensen.jpg",
+        "my-bootstrap.JPG"
+    ],
+    "projects": [
+        [
+            "SpoofProd.png",
+            "Spoof Product - Chikorita Bananas",
+            "This is a spoof product combining the pokemon Chikorita and Chiquita Bananas.  This was one of the first projects I did in Illustrator."
+        ],
+        [
+            "zombified_jensen.jpg",
+            "Zombified Person",
+            "This is a zombified version of the actor Jensen Ackles.  This was one of the first projects I did in Photoshop."
+        ],
+        [
+            "my-bootstrap.JPG",
+            "Custom CSS framework",
+            "This is the beta version of a custom CSS framework I made in my front end implementation class.  In this framework I made custom elements using SCSS."
+        ]
+    ],
+    "projectsVideos": [
+        [
+            "zachery_peterson_lab3.mp4",
+            "Scene Re-Create",
+            "This is a shot for shot recreate of the Greedo/Han scene from Star Wars episode 4.  This was one of the first projects I did in Premiere."
+        ],
+        [
+            "Edited How To.mp4",
+            "How to Throw a Frisbee",
+            "This is a project where we had to create a how to video using Premiere.  Using different shots we showed how to throw a frisbee a couple different ways."
+        ],
+        [
+            "Edited Trailer.mp4",
+            "Fake Movie Trailer",
+            "This is a movie trailer made in Premiere based on a movie we made up.  Using different lighting we captured a man hitting an all time low."
+        ]
     ]
 }
