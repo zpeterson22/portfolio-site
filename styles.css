@@ -1,0 +1,335 @@
+#green, #purple {
+    height: 100px;
+    width: 100px;
+}
+
+h1, h2, h3 {
+    font-family: 'Lato', sans-serif;
+    /* font-family: 'Jolly Lodger', cursive; */
+}
+
+p, a, span, code, div, pre {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h3, h2, h1, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    /* background-color: #ba8d57; */
+}
+
+div, p, h1, h2, h3, a, footer{
+    color: white;
+}
+
+footer{
+    padding: 5px;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.title-logo-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #F21F83;
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.title-logo {
+    margin: auto;
+    min-width: 65px;
+    min-height: 65px;
+    max-width: 65px;
+    max-height: 65px;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    /* margin-top: 25px;
+    margin-bottom: 25px; */
+    padding: 10px;
+    /* flex: 2; */
+}
+
+.nav-item {
+    flex: 4;
+    padding: 0px;
+    margin: 0px;
+    min-width: 100px;
+    max-width: 100px;
+    text-align: center;
+}
+
+.nav-item a {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    /* color: black; */
+    color: white;
+    /* border-radius: 10px; */
+}
+
+.nav-item a:hover {
+    background-color: white;
+    color: black;
+}
+
+#main-title{
+    text-align: center;
+    padding: 10px;
+    /* flex: 10; */
+}
+
+#spacer{
+    padding: 5px;
+    height: 25px;
+}
+
+/* ----- Design Styles ----- */
+#parent-proj-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 85%;
+    /* flex: 6; */
+    /* padding: 20px; */
+}
+
+#proj-container {
+    display: flex;
+    flex-direction: row;
+    /* flex: 6; */
+    flex: 1;
+    /* padding: 20px; */
+    /* border: solid 2px white; */
+}
+
+.proj-picture, .proj-video, .proj-spacer, .proj-picture-big {
+    /* flex: 3; */
+    display: flex;
+    flex-direction: row;
+    /* border: solid 2px black; */
+    /* border-bottom: 2px black solid; */
+    background-color: white;
+    border-radius: 15px;
+    /* border-radius: 5px; */
+    margin: 15px;
+}
+
+.proj-picture {
+    flex: 1;
+}
+
+.proj-picture-big {
+    flex: 3;
+}
+
+.proj-video {
+    flex: 3;
+}
+
+.proj-spacer {
+    flex: 1;
+}
+
+.proj-info {
+    display: flex;
+    flex-direction: column;
+    /* flex: 4; */
+    flex: 1;
+}
+
+.proj-title{
+    color: black;
+    text-align: center;
+    padding: 5px;
+    flex: 1;
+}
+
+.content{
+    /* flex: 8; */
+    flex: 1;
+    padding: 5px;
+    text-align: center;
+}
+
+.content img {
+    /* height: 250px; */
+}
+
+.video-content {
+    padding: 5px;
+}
+
+.description{
+    color: black;
+    padding: 5px;
+    text-align: center;
+    flex: 1;
+}
+
+@media all and (max-width: 1230px) {
+    /* TODO adjust so that project pages is more responsive */
+}
+
+/* @media all and (max-width: 1260px) {
+    #container {
+        flex-direction: column;
+    }
+
+    .buffer, .buffer-small {
+        display: none;
+    }
+
+    .proj-picture, .proj-video {
+        margin: 0 auto;
+        width: 70%;
+        margin-bottom: 20px;
+    }
+} */
+/* ----- end of design styles ----- */
+
+/* ------ Bio Styles ------ */
+#bio-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 85%;
+}
+
+.bio-spacer {
+    flex: .5;
+}
+
+#about-me {
+    padding: 25px;
+    /* flex: 5.5; */
+}
+
+#about-me{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+
+#about-top {
+    font-size: 20px;
+}
+
+#about-top, #about-bot {
+    flex: 5.5;
+}
+
+.basic-info {
+    text-decoration: none;
+    white-space: pre-wrap;
+    line-height: 1.5;
+    margin: 35px;
+    font-size: 20px;
+}
+
+#picture{
+    text-align: center;
+    color: white;
+}
+
+#picture img {
+    padding: 15px;
+    /* border-radius: 50%; */
+}
+
+.basic-info-title {
+    font-size: 32px;
+    /* margin: 10px; */
+}
+/* ----- end of bio styles ----- */
+
+/* ----- start of index styles ----- */
+.index-body {
+    /* background-color: #ba8d57; */
+    background-color: black;
+}
+
+#instruction {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -10px;
+    margin-left: -30px;
+    color: black;
+}
+
+.home-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -125px;
+    margin-left: -125px;
+    height: 250px;
+    width: 250px;
+    background: none;
+    border-radius: 50%;
+    background-color: #F21F83;
+    /* border: 2px solid #4EF250; */
+    cursor: pointer;
+}
+
+.home-logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -75px;
+    margin-left: -75px;
+    height: 150px;
+    width: 150px;
+}
+/* ----- end of index styles ----- */
+
+/* ----- start of contact styles ----- */
+#contact-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    width: 90%;
+}
+
+.contact-info {
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.contact-info div, .contact-info h2, .contact-info ul, .contact-info li {
+    text-align: center;
+}
+
+.contact-info div {
+    margin: 25px;
+}
+
+.contact-list {
+    margin: 25px;
+}
+
+.contact-list-item {
+    list-style-type: none;
+    padding: 10px;
+}
+/* ----- end of contact styles ----- */
